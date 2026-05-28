@@ -66,7 +66,7 @@ body{
     align-items: center;
     font-size: 30px;
     width: 25%;
-    height: 200px;
+    min-height: 200px;
     background-color:rgba(0,0,0,0.6);
     color: white;
     transition: all 0.3s ease;
@@ -80,4 +80,48 @@ body{
     0 0 20px rgb(240, 240, 240);
     font-size: 33px;
     transition: all 0.3s;
+}
+@media (max-width: 768px){
+
+    body{
+        font-size: medium;
+        border-width: 3px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .logo{
+        font-size: 28px;
+    }
+
+    .head-name{
+        font-size: 35px;
+        padding: 20px 10px;
+    }
+
+    .actors-names{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .name{
+        width: 90%;
+        height: auto;
+        min-height: 80px;
+        font-size: 22px;
+        padding: 15px;
+        text-align: center;
+    }
 }
