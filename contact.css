@@ -101,6 +101,13 @@ span:hover{
 .number:hover::after{
     transform: scaleX(1);
 }
+.number a{
+    text-decoration: none;
+    color: cyan;
+}
+.number a:hover{
+    cursor: pointer;
+}
 @media(max-width:768px){
 
     .navbar{
