@@ -81,6 +81,11 @@ body{
     font-size: 33px;
     transition: all 0.3s;
 }
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 @media (max-width: 768px){
 
     body{
